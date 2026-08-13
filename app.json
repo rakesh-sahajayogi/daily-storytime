@@ -48,9 +48,11 @@
       "typedRoutes": true
     },
     "extra": {
+      "router": {},
       "eas": {
-        "projectId": "replace-after-eas-init"
+        "projectId": "1621124a-a69a-42c1-93fc-09eb25affb64"
       }
-    }
+    },
+    "owner": "rakesh.sahajayogi"
   }
 }
