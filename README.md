@@ -43,7 +43,7 @@ eas submit --platform android
 
 ### Before first submission
 
-- Bundle id is `com.littlelantern.app` (change before first store create if needed)
+- Bundle id is `com.beinguniversal.littlelantern` (matches Being Universal Apple team)
 - Create listings in [App Store Connect](https://appstoreconnect.apple.com) and [Google Play Console](https://play.google.com/console)
 - Host a **privacy policy URL** (required for kids / family apps)
 - Complete Apple Kids Category / Google Families questionnaires — this app stores only local favorites/streaks on device

@@ -10,14 +10,13 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.littlelantern.app",
-      "buildNumber": "1",
+      "bundleIdentifier": "com.beinguniversal.littlelantern",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.littlelantern.app",
+      "package": "com.beinguniversal.littlelantern",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#14232C",

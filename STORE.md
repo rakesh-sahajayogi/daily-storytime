@@ -23,8 +23,8 @@ eas init
 
 Confirm identifiers in `app.json`:
 
-- iOS `bundleIdentifier`: `com.littlelantern.app`
-- Android `package`: `com.littlelantern.app`
+- iOS `bundleIdentifier`: `com.beinguniversal.littlelantern`
+- Android `package`: `com.beinguniversal.littlelantern`
 
 Change them before the first store create if you want your own reverse-DNS id.
 
@@ -59,7 +59,7 @@ Profiles live in `eas.json` (`production` → store-ready binaries).
 ### Apple
 
 1. App Store Connect → **My Apps** → **+**
-2. Bundle ID must match `com.littlelantern.app`
+2. Bundle ID must match `com.beinguniversal.littlelantern`
 3. Prepare: name, subtitle, description, keywords, support URL, privacy URL
 4. Screenshots for required device sizes (iPhone 6.7" + others as prompted)
 5. Age rating questionnaire (stories are gentle; no violence/mature content)
@@ -67,7 +67,7 @@ Profiles live in `eas.json` (`production` → store-ready binaries).
 ### Google
 
 1. Play Console → **Create app**
-2. Package name must match `com.littlelantern.app`
+2. Package name must match `com.beinguniversal.littlelantern`
 3. Store listing, graphics (icon, feature graphic, phone screenshots)
 4. Content rating questionnaire
 5. Target audience / Families declarations as applicable
