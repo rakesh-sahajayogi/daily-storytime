@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
   eyebrow: {
     fontFamily: theme.fonts.ui,
     fontSize: 12,
-    color: theme.colors.teal,
+    color: theme.colors.gold,
     textTransform: 'uppercase',
     letterSpacing: 0.8,
   },
@@ -177,11 +177,11 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     borderRadius: theme.radius.pill,
     alignItems: 'center',
-    backgroundColor: theme.colors.teal,
+    backgroundColor: theme.colors.gold,
   },
   okText: {
     fontFamily: theme.fonts.title,
     fontSize: 15,
-    color: theme.colors.white,
+    color: theme.colors.ink,
   },
 });

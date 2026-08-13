@@ -83,8 +83,8 @@ export default function StoryReaderScreen() {
         paper: theme.colors.paper,
         ink: theme.colors.ink,
         soft: theme.colors.inkSoft,
-        accent: theme.colors.teal,
-        btnText: theme.colors.white,
+        accent: theme.colors.gold,
+        btnText: theme.colors.ink,
       };
 
   const goNext = () => {

@@ -1,4 +1,7 @@
 import {
+  Fraunces_700Bold,
+} from '@expo-google-fonts/fraunces';
+import {
   Literata_400Regular,
   Literata_600SemiBold,
 } from '@expo-google-fonts/literata';
@@ -28,6 +31,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
+    Fraunces_700Bold,
     Nunito_400Regular,
     Nunito_600SemiBold,
     Nunito_700Bold,
@@ -77,7 +81,7 @@ function RootLayoutNav() {
           },
           headerTintColor: bedtimeMode
             ? theme.colors.bedtimeAccent
-            : theme.colors.teal,
+            : theme.colors.gold,
           contentStyle: {
             backgroundColor: bedtimeMode
               ? theme.colors.bedtimeBg

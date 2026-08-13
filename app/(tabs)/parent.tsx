@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
   },
   unlockBtn: {
     marginTop: theme.space.md,
-    backgroundColor: theme.colors.teal,
+    backgroundColor: theme.colors.gold,
     paddingHorizontal: 28,
     paddingVertical: 14,
     borderRadius: theme.radius.pill,
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
   unlockText: {
     fontFamily: theme.fonts.title,
     fontSize: 16,
-    color: theme.colors.white,
+    color: theme.colors.ink,
   },
   card: {
     borderRadius: theme.radius.lg,

@@ -31,7 +31,7 @@ export default function LibraryScreen() {
       <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
         <Text style={[styles.title, { color: ink }]}>Library</Text>
         <Text style={[styles.subtitle, { color: soft }]}>
-          Short stories for parents to read aloud—any night of the week.
+          Short stories under the lantern—ready for any night of the week.
         </Text>
 
         <ScrollView
@@ -50,14 +50,14 @@ export default function LibraryScreen() {
                   active && {
                     backgroundColor: bedtimeMode
                       ? theme.colors.bedtimeAccent
-                      : theme.colors.teal,
+                      : theme.colors.gold,
                   },
                 ]}
               >
                 <Text
                   style={[
                     styles.chipText,
-                    active && { color: bedtimeMode ? theme.colors.bedtimeBg : theme.colors.white },
+                    active && { color: bedtimeMode ? theme.colors.bedtimeBg : theme.colors.ink },
                   ]}
                 >
                   {item}

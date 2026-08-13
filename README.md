@@ -1,6 +1,8 @@
-# Daily Storytime
+# Little Lantern
 
-A calm, parent-led kids’ story app for everyday read-alouds. Built with **Expo (React Native)** so you can ship one codebase to the **Apple App Store** and **Google Play**.
+A calm, parent-led kids’ story app for everyday read-alouds — **night-gold** branding, short stories, soft illustrations. Built with **Expo (React Native)** for the **Apple App Store** and **Google Play**.
+
+Tagline: *A short story, every night.*
 
 ## Features
 
@@ -41,7 +43,7 @@ eas submit --platform android
 
 ### Before first submission
 
-- Replace `com.dailystorytime.app` if you want a different bundle / application id
+- Bundle id is `com.littlelantern.app` (change before first store create if needed)
 - Create listings in [App Store Connect](https://appstoreconnect.apple.com) and [Google Play Console](https://play.google.com/console)
 - Host a **privacy policy URL** (required for kids / family apps)
 - Complete Apple Kids Category / Google Families questionnaires — this app stores only local favorites/streaks on device

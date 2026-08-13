@@ -7,7 +7,7 @@ import { theme } from '@/constants/theme';
 
 export default function TabLayout() {
   const { bedtimeMode } = useReading();
-  const active = bedtimeMode ? theme.colors.bedtimeAccent : theme.colors.teal;
+  const active = bedtimeMode ? theme.colors.bedtimeAccent : theme.colors.gold;
   const inactive = bedtimeMode ? '#8AA0AB' : '#8AA4AF';
   const bg = bedtimeMode ? theme.colors.bedtimePaper : theme.colors.white;
 
